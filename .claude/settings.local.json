@@ -1,0 +1,34 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Read(//c/Users/SebastianMolinaGasma/OneDrive - Accion/Desktop/Repositories/**)",
+      "WebFetch(domain:api.github.com)",
+      "WebFetch(domain:export.arxiv.org)",
+      "WebFetch(domain:api.semanticscholar.org)",
+      "WebFetch(domain:ar5iv.labs.arxiv.org)",
+      "WebFetch(domain:api.perplexity.ai)",
+      "WebFetch(domain:api.unpaywall.org)",
+      "WebSearch",
+      "WebFetch(domain:www.trade.gov)",
+      "WebFetch(domain:www.rystadenergy.com)",
+      "WebFetch(domain:mexicobusiness.news)",
+      "WebFetch(domain:www.spglobal.com)",
+      "WebFetch(domain:oilprice.com)",
+      "WebFetch(domain:www.bnamericas.com)",
+      "WebFetch(domain:energiesnet.com)",
+      "WebFetch(domain:www.duanemorris.com)",
+      "WebFetch(domain:practiceguides.chambers.com)",
+      "WebFetch(domain:www.bakerinstitute.org)",
+      "WebFetch(domain:www.worldoil.com)",
+      "WebFetch(domain:americasmi.com)",
+      "WebFetch(domain:iclg.com)",
+      "WebFetch(domain:www.epe.gov.br)",
+      "WebFetch(domain:naturalgasintel.com)",
+      "WebFetch(domain:www.enverus.com)",
+      "WebFetch(domain:www.globallegalinsights.com)",
+      "WebFetch(domain:sixmexico.com)"
+    ]
+  }
+}
