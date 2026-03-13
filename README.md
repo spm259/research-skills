@@ -4,8 +4,6 @@ A Claude Code skills toolkit for in-depth research on any topic. Go from a raw q
 to a structured first pass — with sources, synthesis, expert map, interview guides,
 and investment comps — in a single session.
 
-Inspired by [gtm-skills](https://github.com/extruct-ai/gtm-skills) by Extruct.
-
 ---
 
 ## What this is
@@ -14,7 +12,7 @@ A set of 9 modular Claude Code skills that handle each stage of a research proce
 Use them as a pipeline or invoke any skill standalone — they all work independently.
 
 The goal is a **first pass that empowers deeper research**, not a finished deliverable.
-Skills produce structured files you can reference, edit, and build on.
+Skills produce structured files you can reference, edit, and build on in order to guide your research process. 
 
 ---
 
@@ -26,6 +24,8 @@ Skills produce structured files you can reference, edit, and build on.
 cp .env.example .env
 # Add your PERPLEXITY_API_KEY for deeper web research (optional but recommended)
 # arXiv and Semantic Scholar work without any key
+# You can customize the skills to use other services as needed. 
+# You can still use the skills with no APIs.
 ```
 
 ### 2. Use any skill with plain English
