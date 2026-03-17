@@ -86,6 +86,7 @@ understanding forward? Name them and explain why.
 
 **Step 5 — Write expert-map.md**
 Save to `output/{topic-slug}/expert-map.md`.
+After the Coverage Notes section, add a **Quick Reference Table** that consolidates every named person or archetype from the map into a single table with columns: Name, Category, Organization, Why Talk To Them, How To Reach.
 
 ## Output format — expert-map.md
 
@@ -127,6 +128,13 @@ map_date: {YYYY-MM-DD}
 
 ## Coverage Notes
 {Any categories that don't apply to this topic, and why}
+
+## Quick Reference Table
+
+| Name | Category | Organization | Why Talk To Them | How To Reach |
+|---|---|---|---|---|
+| {Name or archetype} (verify) | {Academic / Practitioner / Investor / Journalist / Policy / Critic} | {Org or role} | {One-line reason — what unique knowledge they have} | {Cold email / mutual intro / conference / reply to their writing} |
+| ... | | | | |
 ```
 
 ## Output
