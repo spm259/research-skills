@@ -88,6 +88,20 @@ understanding forward? Name them and explain why.
 Save to `output/{topic-slug}/expert-map.md`.
 After the Coverage Notes section, add a **Quick Reference Table** that consolidates every named person or archetype from the map into a single table with columns: Name, Category, Organization, Why Talk To Them, How To Reach.
 
+**Step 6 — Write expert-map.csv**
+Save to `output/{topic-slug}/expert-map.csv`.
+This file is for direct import into Clay or any CRM/enrichment tool. One row per named person (skip pure archetypes with no real name). Columns:
+- `first_name` — first name only (Clay uses this for LinkedIn enrichment)
+- `last_name` — last name only
+- `company` — current organization (Clay uses this alongside name for enrichment)
+- `category` — one of: Practitioner, Academic, Investor, Journalist, Policy, Critic
+- `verify` — always "yes" (reminds the user to confirm before outreach)
+- `why_valuable` — one sentence: the unique knowledge or perspective they hold
+- `suggested_approach` — how to reach them (cold email / mutual intro / conference / reply to writing)
+- `opening_question` — the single best question to open with
+
+Use standard CSV formatting. Wrap any field containing commas in double quotes.
+
 ## Output format — expert-map.md
 
 ```markdown
@@ -139,6 +153,7 @@ map_date: {YYYY-MM-DD}
 
 ## Output
 - `output/{topic-slug}/expert-map.md`
+- `output/{topic-slug}/expert-map.csv` — Clay-ready lead list (one row per named person)
 
 ## Notes
 - Always flag example names as "verify" — search results can be stale or misattributed.
