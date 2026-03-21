@@ -8,7 +8,7 @@ and investment comps — in a single session.
 
 ## What this is
 
-A set of 9 modular Claude Code skills that handle each stage of a research process.
+A set of 10 modular Claude Code skills that handle each stage of a research process.
 Use them as a pipeline or invoke any skill standalone — they all work independently.
 
 The goal is a **first pass that empowers deeper research**, not a finished deliverable.
@@ -21,10 +21,12 @@ Skills produce structured files you can reference, edit, and build on in order t
 ### 1. Clone and configure
 
 ```bash
+git clone https://github.com/spm259/research-skills.git
+cd research-skills
 cp .env.example .env
 # Add your PERPLEXITY_API_KEY for deeper web research (optional but recommended)
 # arXiv and Semantic Scholar work without any key
-# You can customize the skills to use other services as needed. 
+# You can customize the skills to use other services as needed.
 # You can still use the skills with no APIs.
 ```
 
@@ -57,6 +59,7 @@ No slash commands needed. Skills trigger on natural language.
 | [expert-map](skills/expert-map/SKILL.md) | Map who to talk to and how to reach them | Yes |
 | [interview-questions](skills/interview-questions/SKILL.md) | Build tailored question guides for informational interviews | Yes |
 | [comps](skills/comps/SKILL.md) | Build comparable companies / precedent transactions tables | Yes |
+| [conversational-brief](skills/conversational-brief/SKILL.md) | Brainstorm a topic through conversation, then produce a structured one-pager | Yes |
 
 ---
 
@@ -76,9 +79,11 @@ output/
     ├── synthesis.md                     # Landscape map across sources
     ├── gaps.md                          # Open questions + priority next steps
     ├── expert-map.md                    # Who to talk to
+    ├── expert-map.csv                   # Clay-ready lead list
     ├── interview-questions/
     │   └── {person-slug}.md             # Question guide per interview
-    └── comps.md                         # Comparable companies / deals table
+    ├── comps.md                         # Comparable companies / deals table
+    └── brief.md                         # Conversational one-pager
 ```
 
 ---
@@ -122,6 +127,13 @@ output/
 "I've been reading about X. What am I missing?"
 ```
 → gap-analysis (standalone, user describes what they know)
+
+### Capture what you already think
+```
+"Let's talk through X and write a brief"
+"Help me think through X"
+```
+→ conversational-brief — Claude interviews you, then produces a one-pager from the conversation
 
 ---
 
