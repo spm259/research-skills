@@ -28,7 +28,11 @@
       "WebFetch(domain:naturalgasintel.com)",
       "WebFetch(domain:www.enverus.com)",
       "WebFetch(domain:www.globallegalinsights.com)",
-      "WebFetch(domain:sixmexico.com)"
+      "WebFetch(domain:sixmexico.com)",
+      "WebFetch(domain:www.capitalfounders.io)",
+      "WebFetch(domain:www.newcomer.co)",
+      "WebFetch(domain:www.generalcatalyst.com)",
+      "WebFetch(domain:insights.euclid.vc)"
     ]
   }
 }
